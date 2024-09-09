@@ -10,7 +10,7 @@ jobs:
   test:
     #mongodb+srv://user:<db_password>@clustersito.w1jf2nr.mongodb.net/?retryWrites=true&w=majority&appName=clustersito
     env:
-      MONGODB_CLUSTER_ADDERSS: clustersito.w1jf2nr.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: clustersito.w1jf2nr.mongodb.net
       MONGODB_USERNAME: user
       MONGODB_PASSWORD: user
       PORT: 8080
